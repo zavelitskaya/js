@@ -124,10 +124,7 @@ window.onload = function(){
     document.getElementById("btn_op_equal").onclick = function() {
         if (a === '' || b === '') return;
 
-        if (selectedOperation === 'uranium') {
-            calculateUranium(); // Вызываем функцию расчёта урана
-             selectedOperation = null; // Сбрасываем selectedOperation
-        } else {
+
         // Стандартные вычисления ( +, -, *, / )
         switch(selectedOperation) {
             case 'x':
@@ -141,8 +138,10 @@ window.onload = function(){
                 break;
             case '/':
                 expressionResult = (+a) / (+b)
-            break;
-        }
+                break;
+            case 'uranium':
+                calculateUranium(); // Вызываем функцию расчёта урана
+                break;
 
         expressionResult = Number(expressionResult).toString().replace(/\.0*$/, ''); // Преобразуем в число, затем в строку и убираем лишние нули
         a = expressionResult.toString()
