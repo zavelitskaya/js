@@ -1,0 +1,185 @@
+/* ✅ Фон для всей страницы */
+body {
+    background-color: #0c73fe;
+}
+
+#main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.product-card {
+    width: 400px;          /* Фиксированная ширина карточки */
+    height: 350px;         /* Фиксированная высота карточки */
+    background: #f8f9fa;
+    border-radius: 16px;
+    padding: 0px;        /* Уменьшаем отступ всей карточки если нужно */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.product-card-content {
+    flex-grow: 1;
+    padding: 5px;          /* Уменьшаем отступ контента от краев */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1px;  /* Уменьшаем отступ заголовка от картинки */
+}
+
+.card-text {
+    font-size: 1.2em;
+    margin-top: 0px;          /* Уменьшаем отступ текста от заголовка */
+    margin-bottom: 1px; /* Уменьшаем отступ текста от кнопки */
+}
+
+.product-card .btn {
+    width: 150px;
+    height: 40px;
+    padding: 0;
+    background-color: #fa742d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;         /* Центрируем кнопку */
+    margin-bottom: 3px;    /* Уменьшаем отступ кнопки от низа карточки */
+}
+
+
+.title {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.cards-row {
+    display: flex;              /* Горизонтальное расположение */
+    gap: 20px;                 /* Расстояние между карточками */
+    overflow-x: auto;          /* Горизонтальная прокрутка при необходимости */
+    padding: 20px 0;           /* Отступы сверху и снизу */
+    scrollbar-width: none;     /* Скрыть scrollbar для Firefox */
+}
+
+.cards-row::-webkit-scrollbar {
+    display: none;             /* Скрыть scrollbar для Chrome, Safari и Opera */
+}
+
+.product{
+    width: 600px;
+    height: 500px; 
+    background: #f8f9fa;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+    display: flex; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+    position: fixed;  /* Фиксируем положение относительно окна браузера */
+    top: 75%;         /* Размещаем верхний край div по центру экрана по вертикали */
+    left: 50%;        /* Размещаем левый край div по центру экрана по горизонтали */
+    transform: translate(-50%, -50%); /* Сдвигаем div на половину его ширины и высоты назад */
+
+    /* Остальные ваши стили */
+    display: flex;
+    border-radius: 16px;
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    padding: 0px;
+    overflow: hidden;
+    justify-content: center; /* Центрируем содержимое внутри div (если есть) */
+}
+.text-card{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); 
+}
+
+.back-button {
+    width: 150px;
+    height: 40px;
+    padding: 0;
+    background-color: #fa742d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;         /* Центрируем кнопку */
+    margin-bottom: 3px;    /* Уменьшаем отступ кнопки от низа карточки */
+}
+
+/* product-page.css */
+
+#delete-button {
+    background-color: white; /* Красный */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#back-button {
+    background-color: #fa742d; /* Зеленый */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Добавляем hover-эффекты */
+#delete-button:hover {
+    background-color: white;
+}
+
+#back-button:hover {
+    background-color: #fa742d; /* Темно-зеленый */
+}
+
+.component-card {
+
+}
