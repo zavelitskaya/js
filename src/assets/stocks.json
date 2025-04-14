@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "src": "https://s0.rbk.ru/v6_top_pics/media/img/7/44/756540073617447.jpg",
+        "title": "Москва",
+        "text": "Политический, экономический и культурный центр России"
+    },
+    {
+        "id": 2,
+        "src": "https://www.milanodavai.ru/wp-content/uploads/2018/08/Piaza-Duomo-Milan.jpg",
+        "title": "Милан",
+        "text": "Столица итальянской моды и дизайна, а также крупный экономический центр"
+    },
+    {
+        "id": 3,
+        "src": "https://avatars.mds.yandex.net/i?id=14f764cfb93a2bde5fa53cbd1c587d7f_l-4612918-images-thumbs&n=13",
+        "title": "Токио",
+        "text": "Один из самых густонаселенных мегаполисов мира"
+    },
+    {
+        "id": 4,
+        "src": "https://sun9-58.userapi.com/impg/aDzR90tGPe9UzXiBrjYqoBezwdFwS1-5hykZBA/9klWASYJZVs.jpg?size=1200x800&quality=95&sign=6599c42237c03f984760a13346f1f43e&type=album",
+        "title": "Сидней",
+        "text": "Известный своим знаковым Сиднейским оперным театром и мостом Харбор-Бридж"
+    }
+]
